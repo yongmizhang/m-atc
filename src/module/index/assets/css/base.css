@@ -1,0 +1,75 @@
+/* base start*/
+
+.w342 {
+	width: 342px;
+}
+
+.w422 {
+	width: 422px;
+}
+
+.w490 {
+	width: 490px;
+}
+
+.w611 {
+	width: 611px;
+}
+
+.w990 {
+	width: 990px;
+}
+
+.bgg {
+	background: #F6F7F8;
+}
+
+.h3 {
+	font-size: 36px;
+	color: #5A5A5A;
+	font-weight: normal;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+/* 水平居中 */
+
+.center-h {
+	margin: 0 auto;
+}
+
+/* 垂直居中 */
+
+.center-v {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.position-l {
+	left: 0;
+}
+
+.position-r {
+	right: 0;
+}
+
+.font-grey {
+	font-size: 18px;
+	color: #7E7E7E;
+	line-height: 1.8;
+}
+
+.font-black {
+	font-size: 18px;
+	color: #5A5A5A;
+	line-height: 1.8;
+}
+
+/* base end */

@@ -1,0 +1,100 @@
+.footer {
+  background: #efefef;
+  height: 300px;
+  position: relative;
+  text-align: center;
+}
+
+.footer-content {
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -webkit-transfrom: -webkit-translateX(-50%);
+  left: 50%;
+  position: absolute;
+  top: 0;
+  transform: translateX(-50%);
+}
+
+.footer-title {
+  color: #878787;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1;
+  padding-top: 56px;
+}
+
+.footer-links {
+  margin-bottom: 36px;
+  margin-top: 50px;
+}
+
+.footer-links li {
+  float: left;
+  padding: 0 23px;
+}
+
+.footer .link {
+  display: block;
+  height: 54px;
+  width: 55px;
+  margin-bottom: 3px;
+}
+
+// .footer .link.twitter {
+//   background: url(../../assets/imgs/twitter.png);
+// }
+
+// .footer .link.github {
+//   background: url(../../assets/imgs/github.png);
+// }
+
+.footer .link.QQ {
+  background: url(../../assets/imgs/QQ.png);
+  background-size: contain;
+}
+
+.footer .link.wechat {
+  background: url(../../assets/imgs/wechat.png);
+  background-size: contain;
+}
+
+.footer .link.gitter {
+  // background: url(../../assets/imgs)
+}
+
+.footer .link.weibo {
+  background: url(../../assets/imgs/weibo.png);
+}
+
+.footer .link.mail {
+  background: url(../../assets/imgs/mail.png);
+}
+
+.footer .link.telegram {
+  background: url(../../assets/imgs/telegram.png);
+}
+
+.footer .link-name {
+  color: #747474;
+  font-size: 12px;
+  text-align: center;
+}
+
+.footer .company,
+.footer .copyright {
+  color: #747474;
+  font-size: 12px;
+}
+.el-popover.el-popper {
+  width: 120px !important;
+  height: 120px !important;
+  padding: 10px !important;
+  box-sizing: border-box;
+}
+.wechat-qrcode {
+  display: block;
+  height: 150px;
+  width: 150px;
+  background: url(../../assets/imgs/wechat-qrcode.png);
+  background-size: contain;
+}
